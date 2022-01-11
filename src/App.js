@@ -1,7 +1,7 @@
 import { isEditable } from "@testing-library/user-event/dist/utils";
 import React, { useState, useEffect, Fragment } from "react";
 import "./App.css";
-import AddUsers from "./components/addusers/addusers";
+import AddUsers from "./components/addusers/addcontacts";
 import Contacts from "./components/contacts/contacts";
 import DeleteModal from "./components/UI/delete-modal";
 

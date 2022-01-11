@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import InputFields from "./components/inputFields";
 import Button from "./components/button";
 import Card from "../UI/Card";
-import styles from "./addusers.module.css";
+import styles from "./addcontacts.module.css";
 
 const AddUsers = (props) => {
   const [firstName, setFirstName] = useState("");
