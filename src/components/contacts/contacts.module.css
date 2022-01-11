@@ -1,0 +1,26 @@
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-bottom: 1px solid rgb(201 201 201);
+}
+
+.contact__details .name {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.contact__details .title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sub__container {
+  margin: 8px 0;
+}

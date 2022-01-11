@@ -1,0 +1,23 @@
+.input__container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.input__container label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.input__container input {
+  width: 100%;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
